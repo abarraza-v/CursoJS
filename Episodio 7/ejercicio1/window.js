@@ -4,7 +4,7 @@ let windowWidth = window.screen.width;
 let respuesta = confirm(`La pantalla de este computador es de ${windowWidth}x${windowHeight}. Deseas comprarla?`);
 
 if (respuesta) {
-    alert("Felicidades, compraste el computador full HD")
+    alert("Su compra ha sido realizada con exito.")
 } else {
-    alert("Tranquilo amigo, ya habrá un computador que se acomode a tus gustos");
+    alert("Tu compra ha sido cancelada. Tranquilo amigo, ya habrá un computador que se acomode a tus gustos.");
 }

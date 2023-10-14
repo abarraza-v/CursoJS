@@ -1,0 +1,13 @@
+.container {
+  padding: 50px;
+  background: cadetblue;
+}
+
+.parrafo {
+  padding: 10px;
+  background: lightblue;
+}
+
+.parrafo:hover {
+  color: white;
+}

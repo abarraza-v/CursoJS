@@ -5,6 +5,14 @@
   font-family: sans-serif;
 }
 
+.texto-rojo {
+  color: #ce1d1d;
+}
+
+.texto-verde {
+  color: #3cb12c;
+}
+
 .flex-container {
   width: 100%;
   display: flex;
@@ -85,4 +93,8 @@ form {
   color: #fff;
   font-weight: 540;
   margin-top: 10px;
+}
+
+.padding {
+  padding: 10px 35px;
 }

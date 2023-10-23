@@ -14,6 +14,7 @@
 
 form {
   width: 30%;
+  height: 20%;
   margin: 10px;
   padding: 20px;
   background: #081434;
@@ -32,13 +33,56 @@ form {
 }
 
 .form__input {
+  font-weight: 540;
+  background: none;
+  border: none;
+  border-top: #4ae 2.5px solid;
+  color: #fff;
+  width: 90%;
+  height: 32px;
+  padding: 5px;
+  outline: none;
+  transition: 0.2s;
+}
+
+.form__input::placeholder {
+  font-weight: 540;
   color: #4ae;
+}
+
+.form__input:hover::placeholder,
+.form__input:focus::placeholder {
+  font-weight: 540;
+  color: #fff;
+}
+
+.form__input:hover,
+.form__input:focus {
+  background: rgba(8, 110, 179, 0.884);
+  border: none;
+  border-top: #4ae 2.5px solid;
+  color: #fff;
   width: 90%;
   padding: 5px;
   outline: none;
 }
 
+.form__input::selection {
+  background: #8e9fff8a;
+}
+
 .form__input[type="submit"] {
+  border: none;
+  background: rgb(5, 144, 236);
+  color: #fff;
+  font-weight: 540;
   margin-top: 10px;
-  padding: 10px;
+}
+
+.form__input[type="submit"]:hover {
+  border: none;
+  background: rgb(5, 115, 189);
+  color: #fff;
+  font-weight: 540;
+  margin-top: 10px;
 }

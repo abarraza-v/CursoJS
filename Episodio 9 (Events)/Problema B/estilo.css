@@ -1,0 +1,12 @@
+.grid-container {
+  display: grid;
+  grid-template-rows: 50px;
+  grid-template-columns: repeat(4, minmax(min-content, max-content));
+  grid-auto-rows: 50px;
+}
+
+.grid-item {
+  border: 1px solid#4ae;
+  padding: 10px;
+  margin: 5px;
+}

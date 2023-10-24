@@ -10,3 +10,21 @@
   padding: 10px;
   margin: 5px;
 }
+
+.btn-confirmar {
+  background-color: #48e;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  margin: 10px 480px;
+  padding: 10px;
+}
+
+.btn-confirmar:hover {
+  background-color: #25e;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  margin: 10px 480px;
+  padding: 10px;
+}

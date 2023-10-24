@@ -33,8 +33,8 @@ for (let alumno in alumnos){
     <div class="grid-item materia">${materia}</div>
     <div class="grid-item semana">
         <select class="semana-elegida">
-            <option value="1">Semana 1</option>
-            <option value="2">Semana 2</option>
+            <option value="Semana 1">Semana 1</option>
+            <option value="Semana 2">Semana 2</option>
         </select>
     </div>`
     document.querySelector(".grid-container").innerHTML += htmlCode;
